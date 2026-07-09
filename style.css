@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common section  */
+.cmn-btn {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+    height: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0D1B2A;
+}
+
+.logo img {
+    width: 32px;
+    height: 32px;
+}
+
+nav {
+    text-align: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #575757;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 5px;
+    background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hero-content {
+    width: 100%;
+    padding: 40px 10px;
+    /* gap: 80px; */
+}
+
+.hero h1 {
+    font-size: 80px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.hero p {
+    color: #FFFFFF;
+}
+
+.hero .hero-btn {
+    padding: 40%;
+}

@@ -1,23 +1,28 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* common section  */
 .cmn-btn {
     background-color: #1D4ED8;
     color: #FFFFFF;
-    padding: 10px 30px;
+    padding: 12px 30px;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 80px;
-    height: 10px;
+    padding: 10px 70px;
+    background: white;
 }
 
 .logo {
@@ -33,45 +38,50 @@ header {
 }
 
 nav {
-    text-align: center;
+    display: flex;
     gap: 30px;
 }
 
 nav a {
     color: #575757;
     text-decoration: none;
-    margin: 0 15px;
+    font-size: 15px;
 }
 
 .hero {
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px 5px;
-    background-image: url(./assets/banner.jpg);
+    /* padding: 80px 20px; */
+
+    background-image: linear-gradient( to right, rgba(2, 2, 2, 0.956),
+            rgba(0, 0, 0, 0.2)), url(./assets/banner.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-content {
-    width: 100%;
-    padding: 40px 10px;
-    /* gap: 80px; */
+    max-width: 1200px;
 }
 
 .hero h1 {
-    font-size: 80px;
+    font-size: 70px;
     color: #FFFFFF;
     font-weight: bold;
-    margin-bottom: 50px;
 }
 
 .hero p {
     color: #FFFFFF;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 80px;
 }
 
-.hero .hero-btn {
-    padding: 40%;
+.hero-btn {
+    margin-top: 190px;
+    font-size: 16px;
 }

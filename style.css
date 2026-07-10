@@ -130,3 +130,151 @@ nav a {
     font-size: 13px;
     color: #575757;
 }
+
+.secure-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.secure-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    gap: 10px;
+}
+
+.secure-content h1 {
+    color: #0D1B2A;
+    font-size: 40px;
+}
+
+.secure-content p {
+    color: #575757;
+    font-size: 16px;
+}
+
+.secure-parent-card {
+    display: flex;
+    gap: 20px;
+}
+
+.secure-card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    height: 400px;
+    width: 300px;
+    padding: 20px ;
+    /* border: 0 solid #575757; */
+    border-radius: 15px;
+    box-shadow: 0 0 0 0.1px #333333;
+
+}
+
+.secure-card-upper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.secure-card-upper p {
+    font-size: 11px;
+    color: #575757;
+}
+
+.secure-card-upper h1 {
+    font-size: 40px;
+    color: #0D1B2A;
+}
+
+.line {
+    width: 250px;
+    height: 0.1px;
+    background-color: #c3c0c0;
+}
+
+.secure-card-middle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+    color: #333333;
+    font-size: 15px;
+}
+
+.secure-card-middle span,
+.secure-card-middle-box span {
+    color: #60A5FA;
+}
+
+.btn {
+    color: #1D4ED8;
+    padding: 10px 80px;
+    border: 1px solid #2563EB;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.box {
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+}
+
+.line-box {
+    width: 250px;
+  border-top: 0.1px solid #888888;
+}
+
+.secure-card-upper-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.secure-card-upper-box h6{
+    color: #2563EB;
+    font-weight: 300;
+}
+.secure-card-upper-box h1{
+    font-size: 40px;
+}
+.secure-card-upper-box p {
+    color: #575757;
+    font-size: 11px;
+}
+
+
+.secure-card-middle-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.btn-n {
+    background-color: #1D4ED8;
+    color: white;
+    padding: 10px 80px;
+    border: #888888;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+.last{
+    background-color: #E5E7EB;
+}
+.bton{
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}

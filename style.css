@@ -32,11 +32,6 @@ header {
     color: #0D1B2A;
 }
 
-.logo img {
-    width: 35px;
-    height: 35px;
-}
-
 nav {
     display: flex;
     gap: 30px;

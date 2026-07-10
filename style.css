@@ -55,9 +55,7 @@ nav a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* padding: 80px 20px; */
-
-    background-image: linear-gradient( to right, rgba(2, 2, 2, 0.956),
+    background-image: linear-gradient(to right, rgba(2, 2, 2, 0.956),
             rgba(0, 0, 0, 0.2)), url(./assets/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,4 +82,51 @@ nav a {
 .hero-btn {
     margin-top: 190px;
     font-size: 16px;
+}
+
+.meet-speaker {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.parent-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    box-sizing: border-box;
+    /* width: 300px; */
+    margin: 10px;
+    padding: 15px;
+    gap: 30px;
+
+}
+
+.card img {
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h3 {
+    font-size: 14px;
+    color: #2563EB;
+}
+
+.card h2 {
+    font-size: 24px;
+    color: #0D1B2A;
+}
+
+.card p {
+    font-size: 13px;
+    color: #575757;
 }

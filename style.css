@@ -14,7 +14,7 @@
     border-radius: 6px;
     cursor: pointer;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 header {
@@ -287,123 +287,310 @@ nav a {
 /* ===========================
    Why Attend Section (using AI)
 =========================== */
-
 .why-attend {
-
     padding: 100px 8%;
-
     background: #F8FAFC;
-
     text-align: center;
-
 }
 
 .why-attend h2 {
-
     font-size: 42px;
-
     color: #0F172A;
-
     margin-bottom: 15px;
-
 }
 
 .section-text {
-
     max-width: 700px;
-
     margin: 0 auto 60px;
-
     color: #64748B;
-
     line-height: 1.8;
-
 }
 
 /* Cards */
-
 .card-container {
-
     display: flex;
-
     justify-content: center;
-
     gap: 30px;
-
     flex-wrap: wrap;
-
 }
 
 .card {
-
     width: 320px;
-
     background: white;
-
     padding: 40px 30px;
-
     border-radius: 12px;
-
     box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
-
     transition: .3s;
-
     border: 2px solid transparent;
-
 }
 
 .card:hover {
-
     transform: translateY(-10px);
-
     border-color: #2563EB;
-
 }
 
 .icon {
-
     font-size: 50px;
-
     margin-bottom: 20px;
-
 }
 
 .card h3 {
-
     margin-bottom: 15px;
-
     color: #1E293B;
-
 }
 
 .card p {
-
     color: #64748B;
-
     line-height: 1.7;
-
     margin-bottom: 25px;
-
 }
 
 .card a {
-
     text-decoration: none;
-
     color: #2563EB;
-
     font-weight: 600;
-
 }
 
 .card a:hover {
-
     text-decoration: underline;
-
 }
 
 .why-attend .cmn-btn {
-
     margin-top: 60px;
+}
 
+/* ===========================
+      Event Schedule
+=========================== */
+.schedule {
+    padding: 100px 8%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.schedule h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #0F172A;
+}
+
+.schedule-container {
+    margin-top: 60px;
+}
+
+.schedule-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F8FAFC;
+    padding: 25px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+
+.schedule-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+}
+
+.time {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2563EB;
+    width: 120px;
+}
+
+.details {
+    flex: 1;
+    text-align: left;
+}
+
+.details h3 {
+    margin-bottom: 8px;
+    color: #0F172A;
+}
+
+.details p {
+    color: #64748B;
+}
+
+.badge {
+    background: #DBEAFE;
+    color: #1D4ED8;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.schedule .cmn-btn {
+    margin-top: 50px;
+}
+
+/* ===========================
+        Venue Section
+=========================== */
+.venue {
+    padding: 100px 8%;
+    background: #ecf2f8;
+}
+
+.venue h2 {
+    text-align: center;
+    font-size: 42px;
+    color: #0F172A;
+    margin-bottom: 10px;
+}
+
+.venue .section-text {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px;
+    color: #64748B;
+    line-height: 1.8;
+}
+
+.venue-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.venue-image {
+    flex: 1;
+}
+
+.venue-image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.venue-content {
+    flex: 1;
+}
+
+.venue-content h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #0F172A;
+}
+
+.venue-content p {
+    color: #64748B;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.venue-content ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.venue-content li {
+    margin-bottom: 12px;
+    color: #334155;
+}
+
+/* ===========================
+        FAQ Section
+=========================== */
+.faq {
+    padding: 100px 8%;
+    background: white;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #0F172A;
+}
+
+.faq .section-text {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px;
+    color: #64748B;
+    line-height: 1.8;
+}
+
+.faq-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+details {
+    background: #F8FAFC;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .05);
+}
+
+details:hover {
+    background: #EFF6FF;
+}
+
+summary {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1E293B;
+}
+
+details p {
+    margin-top: 20px;
+    color: #64748B;
+    line-height: 1.8;
+}
+
+/* ===========================
+      Newsletter Section
+=========================== */
+.newsletter {
+    padding: 100px 8%;
+    background: #98cff9;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 42px;
+    color: rgb(234, 230, 230);
+    margin-bottom: 15px;
+}
+
+.newsletter .section-text {
+    max-width: 650px;
+    margin: 0 auto 50px;
+    color: #ebf0f2;
+    line-height: 1.8;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.newsletter-form input {
+    width: 380px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.newsletter-form input:focus {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, .25);
+}
+
+.newsletter-form .cmn-btn {
+    padding: 15px 30px;
 }
